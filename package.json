@@ -1,6 +1,6 @@
 {
   "name": "piquality",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom code quality package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
