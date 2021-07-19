@@ -12,7 +12,6 @@
     "dev": "tsc --watch",
     "prepare": "npm run build",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags",
     "test": "jest --config jestconfig.json",
     "prepublishOnly": "npm test",
     "format": "prettier --write \"src/**/*.ts\""
