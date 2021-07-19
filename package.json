@@ -4,6 +4,9 @@
   "description": "Custom code quality package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "bin": {
+    "piquality": "lib/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -29,5 +32,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
 }

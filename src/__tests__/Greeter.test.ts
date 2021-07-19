@@ -1,5 +1,5 @@
-import { Greeter } from '..'
+// import { Greeter } from '..'
 
-test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl')
-})
+// test('My Greeter', () => {
+//   expect(Greeter('Carl')).toBe('Hello Carl')
+// })
